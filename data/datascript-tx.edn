@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "pol.dz-u-2000-1037-kodeks-spolek-handlowych"
+           :title "Kodeks spółek handlowych (Commercial Companies Code)"
+           :jurisdiction "POL"
+           :kind :law
+           :law-number "Dz.U. 2000 Nr 94 poz. 1037"
+           :url "https://eli.gov.pl/eli/DU/2000/1037/ogl"
+           :url-provenance :official-eli-gov-pl
+           :enacted-date "2000-09-15"
+           :retrieved-at "2026-07-18"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "pol.dz-u-2018-1000-ochrona-danych-osobowych"
+           :title "Ustawa o ochronie danych osobowych (Personal Data Protection Act)"
+           :jurisdiction "POL"
+           :kind :law
+           :law-number "Dz.U. 2018 poz. 1000"
+           :url "https://eli.gov.pl/eli/DU/2018/1000/ogl"
+           :url-provenance :official-eli-gov-pl
+           :enacted-date "2018-05-10"
+           :retrieved-at "2026-07-18"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "pol.dz-u-1974-141-kodeks-pracy"
+           :title "Kodeks pracy (Labour Code)"
+           :jurisdiction "POL"
+           :kind :law
+           :law-number "Dz.U. 1974 Nr 24 poz. 141"
+           :url "https://eli.gov.pl/eli/DU/1974/141/ogl"
+           :url-provenance :official-eli-gov-pl
+           :enacted-date "1974-06-26"
+           :retrieved-at "2026-07-18"
+           :topic [:labor :employment]}]
