@@ -3,7 +3,7 @@
 **`:implemented`** for **POL**. Flagship `eu-establishment-missing`, tax `nip-unverified`.
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 ## Culture catalog
